@@ -17,7 +17,7 @@
         app:srcCompat="@mipmap/lab6" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_login_mail"
         android:layout_width="179dp"
         android:layout_height="58dp"
         android:backgroundTint="#F03E51"
@@ -32,11 +32,11 @@
         app:layout_constraintVertical_bias="0.227" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_login_google"
         android:layout_width="199dp"
         android:layout_height="57dp"
         android:backgroundTint="#C1D22F"
-        android:text="Login Facebook"
+        android:text="Login Google"
         android:textColor="#404708"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -45,4 +45,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.364" />
+
+    <Button
+        android:id="@+id/btn_login_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3BB1A0"
+        android:text="Login Facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

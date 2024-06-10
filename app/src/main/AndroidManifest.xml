@@ -15,9 +15,20 @@
         android:theme="@style/Theme.Lab6AnaisSalvador"
         tools:targetApi="31">
 
-
+        <!--<activity
+            android:name=".NewOutcomeActivity"
+            android:exported="false"
+            >
+        </activity>
+        <activity
+            android:name=".NewIncomeActivity"
+            android:exported="false" /> -->
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoginActivity"
             android:exported="true"
             android:theme="@style/Theme.Lab6AnaisSalvador">
             <intent-filter>
