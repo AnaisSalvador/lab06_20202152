@@ -15,14 +15,14 @@
         android:theme="@style/Theme.Lab6AnaisSalvador"
         tools:targetApi="31">
 
-        <!--<activity
-            android:name=".NewOutcomeActivity"
+        <activity
+            android:name=".OutComeActivity"
             android:exported="false"
             >
         </activity>
         <activity
-            android:name=".NewIncomeActivity"
-            android:exported="false" /> -->
+            android:name=".InComeActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />

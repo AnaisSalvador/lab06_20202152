@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lab6anaissalvador.MainActivity">
+    <item android:title="Ingreso"
+        android:id="@+id/inCome"/>
+
+    <item android:title="Egreso"
+        android:id="@+id/outCome"/>
+
+    <item android:title="Gráfica"
+        android:id="@+id/grafica"/>
+</menu>
